@@ -6,8 +6,8 @@ class CuboidMaker{
     this.width = attributes.width
     this.height = attributes.height
   }
-  volume() {
-    return `Cuboid volume: ${(this.length * this.width * this.height)}`
+    volume() {
+    return `Cuboid volume: ${(this.length * this.width * this.height)}`;
     }
     surfaceArea() {
     return `Surface Area = ${2 *(this.length * this.width + this.length * this.height + this.width * this.height)}`;
